@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E3B09C1DD8BD9F003EFCA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E3B09B1DD8BD9F003EFCA4 /* main.m */; };
+		26E3B09F1DD8BD9F003EFCA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E3B09E1DD8BD9F003EFCA4 /* AppDelegate.m */; };
+		26E3B0A21DD8BD9F003EFCA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E3B0A11DD8BD9F003EFCA4 /* ViewController.m */; };
+		26E3B0A51DD8BD9F003EFCA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E3B0A31DD8BD9F003EFCA4 /* Main.storyboard */; };
+		26E3B0A71DD8BD9F003EFCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E3B0A61DD8BD9F003EFCA4 /* Assets.xcassets */; };
+		26E3B0AA1DD8BD9F003EFCA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E3B0A81DD8BD9F003EFCA4 /* LaunchScreen.storyboard */; };
+		26E3B0B21DD8BDAE003EFCA4 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26E3B0B11DD8BDAE003EFCA4 /* avatar.jpg */; };
+		26E3B0B61DD8BE2F003EFCA4 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E3B0B51DD8BE2F003EFCA4 /* UIImage+Extension.m */; };
+		D54B1CCDFD08C30A9F90BA56 /* libPods-异步绘制圆形头像.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE888E7C932DFEA86435E24 /* libPods-异步绘制圆形头像.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04EBDF0A331A84A9C38966FD /* Pods-异步绘制圆形头像.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-异步绘制圆形头像.release.xcconfig"; path = "Pods/Target Support Files/Pods-异步绘制圆形头像/Pods-异步绘制圆形头像.release.xcconfig"; sourceTree = "<group>"; };
+		26E3B0971DD8BD9F003EFCA4 /* 异步绘制圆形头像.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "异步绘制圆形头像.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E3B09B1DD8BD9F003EFCA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26E3B09D1DD8BD9F003EFCA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26E3B09E1DD8BD9F003EFCA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26E3B0A01DD8BD9F003EFCA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26E3B0A11DD8BD9F003EFCA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26E3B0A41DD8BD9F003EFCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26E3B0A61DD8BD9F003EFCA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26E3B0A91DD8BD9F003EFCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26E3B0AB1DD8BD9F003EFCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E3B0B11DD8BDAE003EFCA4 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		26E3B0B41DD8BE2F003EFCA4 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		26E3B0B51DD8BE2F003EFCA4 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		791FC23FFDA68BFEDFE7ECEC /* Pods-异步绘制圆形头像.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-异步绘制圆形头像.debug.xcconfig"; path = "Pods/Target Support Files/Pods-异步绘制圆形头像/Pods-异步绘制圆形头像.debug.xcconfig"; sourceTree = "<group>"; };
+		FFE888E7C932DFEA86435E24 /* libPods-异步绘制圆形头像.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-异步绘制圆形头像.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26E3B0941DD8BD9F003EFCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54B1CCDFD08C30A9F90BA56 /* libPods-异步绘制圆形头像.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DFD036112CF3C1D36B84747 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFE888E7C932DFEA86435E24 /* libPods-异步绘制圆形头像.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26E3B08E1DD8BD9E003EFCA4 = {
+			isa = PBXGroup;
+			children = (
+				26E3B0991DD8BD9F003EFCA4 /* 异步绘制圆形头像 */,
+				26E3B0981DD8BD9F003EFCA4 /* Products */,
+				5C0E13A864C6A8060E110C5E /* Pods */,
+				1DFD036112CF3C1D36B84747 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26E3B0981DD8BD9F003EFCA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26E3B0971DD8BD9F003EFCA4 /* 异步绘制圆形头像.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26E3B0991DD8BD9F003EFCA4 /* 异步绘制圆形头像 */ = {
+			isa = PBXGroup;
+			children = (
+				26E3B0B31DD8BDE8003EFCA4 /* Category */,
+				26E3B09D1DD8BD9F003EFCA4 /* AppDelegate.h */,
+				26E3B09E1DD8BD9F003EFCA4 /* AppDelegate.m */,
+				26E3B0A01DD8BD9F003EFCA4 /* ViewController.h */,
+				26E3B0A11DD8BD9F003EFCA4 /* ViewController.m */,
+				26E3B0B11DD8BDAE003EFCA4 /* avatar.jpg */,
+				26E3B0A31DD8BD9F003EFCA4 /* Main.storyboard */,
+				26E3B0A61DD8BD9F003EFCA4 /* Assets.xcassets */,
+				26E3B0A81DD8BD9F003EFCA4 /* LaunchScreen.storyboard */,
+				26E3B0AB1DD8BD9F003EFCA4 /* Info.plist */,
+				26E3B09A1DD8BD9F003EFCA4 /* Supporting Files */,
+			);
+			path = "异步绘制圆形头像";
+			sourceTree = "<group>";
+		};
+		26E3B09A1DD8BD9F003EFCA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26E3B09B1DD8BD9F003EFCA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26E3B0B31DD8BDE8003EFCA4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				26E3B0B41DD8BE2F003EFCA4 /* UIImage+Extension.h */,
+				26E3B0B51DD8BE2F003EFCA4 /* UIImage+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5C0E13A864C6A8060E110C5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				791FC23FFDA68BFEDFE7ECEC /* Pods-异步绘制圆形头像.debug.xcconfig */,
+				04EBDF0A331A84A9C38966FD /* Pods-异步绘制圆形头像.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26E3B0961DD8BD9F003EFCA4 /* 异步绘制圆形头像 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E3B0AE1DD8BD9F003EFCA4 /* Build configuration list for PBXNativeTarget "异步绘制圆形头像" */;
+			buildPhases = (
+				D6396C4FDA9F4E64FB5F14D7 /* [CP] Check Pods Manifest.lock */,
+				26E3B0931DD8BD9F003EFCA4 /* Sources */,
+				26E3B0941DD8BD9F003EFCA4 /* Frameworks */,
+				26E3B0951DD8BD9F003EFCA4 /* Resources */,
+				47D49D25BC855F352E7C5D3A /* [CP] Embed Pods Frameworks */,
+				1E466702A7ADD2EBDF911AF4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "异步绘制圆形头像";
+			productName = "异步绘制圆形头像";
+			productReference = 26E3B0971DD8BD9F003EFCA4 /* 异步绘制圆形头像.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26E3B08F1DD8BD9E003EFCA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CMJ;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Mengjie Chen";
+				TargetAttributes = {
+					26E3B0961DD8BD9F003EFCA4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6226KE6HJH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 26E3B0921DD8BD9E003EFCA4 /* Build configuration list for PBXProject "异步绘制圆形头像" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26E3B08E1DD8BD9E003EFCA4;
+			productRefGroup = 26E3B0981DD8BD9F003EFCA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26E3B0961DD8BD9F003EFCA4 /* 异步绘制圆形头像 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26E3B0951DD8BD9F003EFCA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3B0B21DD8BDAE003EFCA4 /* avatar.jpg in Resources */,
+				26E3B0AA1DD8BD9F003EFCA4 /* LaunchScreen.storyboard in Resources */,
+				26E3B0A71DD8BD9F003EFCA4 /* Assets.xcassets in Resources */,
+				26E3B0A51DD8BD9F003EFCA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E466702A7ADD2EBDF911AF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-异步绘制圆形头像/Pods-异步绘制圆形头像-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47D49D25BC855F352E7C5D3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-异步绘制圆形头像/Pods-异步绘制圆形头像-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6396C4FDA9F4E64FB5F14D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26E3B0931DD8BD9F003EFCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3B0A21DD8BD9F003EFCA4 /* ViewController.m in Sources */,
+				26E3B09F1DD8BD9F003EFCA4 /* AppDelegate.m in Sources */,
+				26E3B09C1DD8BD9F003EFCA4 /* main.m in Sources */,
+				26E3B0B61DD8BE2F003EFCA4 /* UIImage+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26E3B0A31DD8BD9F003EFCA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E3B0A41DD8BD9F003EFCA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26E3B0A81DD8BD9F003EFCA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E3B0A91DD8BD9F003EFCA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26E3B0AC1DD8BD9F003EFCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26E3B0AD1DD8BD9F003EFCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26E3B0AF1DD8BD9F003EFCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791FC23FFDA68BFEDFE7ECEC /* Pods-异步绘制圆形头像.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6226KE6HJH;
+				INFOPLIST_FILE = "异步绘制圆形头像/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KimiMengjie.github.com.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26E3B0B01DD8BD9F003EFCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04EBDF0A331A84A9C38966FD /* Pods-异步绘制圆形头像.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6226KE6HJH;
+				INFOPLIST_FILE = "异步绘制圆形头像/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KimiMengjie.github.com.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E3B0921DD8BD9E003EFCA4 /* Build configuration list for PBXProject "异步绘制圆形头像" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3B0AC1DD8BD9F003EFCA4 /* Debug */,
+				26E3B0AD1DD8BD9F003EFCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E3B0AE1DD8BD9F003EFCA4 /* Build configuration list for PBXNativeTarget "异步绘制圆形头像" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E3B0AF1DD8BD9F003EFCA4 /* Debug */,
+				26E3B0B01DD8BD9F003EFCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26E3B08F1DD8BD9E003EFCA4 /* Project object */;
+}
