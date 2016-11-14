@@ -7,6 +7,7 @@
 //
 
 #import "MJHeaderViewController.h"
+#import "HMObjcSugar.h"
 
 NSString *const cellID = @"cellID";
 
@@ -25,6 +26,14 @@ NSString *const cellID = @"cellID";
     [self prepareTableView];
 }
 
+
+/**
+ 设置顶部视图
+ */
+- (void)prepareHeaderView
+{
+    
+}
 
 - (void)prepareTableView{
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
