@@ -5,7 +5,9 @@
 //  Created by Mengjie Chen on 2016/11/14.
 //  Copyright © 2016年 Mengjie Chen. All rights reserved.
 //
-
+/**
+ 侧拉运行时解决，UINavigationController+HMObjcSugar
+ */
 #import "MJHeaderViewController.h"
 #import "HMObjcSugar.h"
 

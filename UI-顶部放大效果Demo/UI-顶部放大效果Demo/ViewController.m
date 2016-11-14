@@ -24,6 +24,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    //显示导航栏
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+}
 
 - (IBAction)clickbTN:(UIBarButtonItem *)sender {
     MJHeaderViewController *headerVC = [[MJHeaderViewController alloc] init];
